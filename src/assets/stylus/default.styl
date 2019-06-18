@@ -1,0 +1,71 @@
+.Loginbtn
+    height 44px
+    background linear-gradient(269deg,rgba(30,219,142,1),rgba(0,168,255,1))
+    border-radius 22px
+    line-height 44px
+    width 100%
+    border navajowhite
+    font-size 16px
+    color #fff
+.nomore
+    font-size 14px
+    color #999
+    padding 15px 0
+.Nodata
+    background-image url('../../assets/img/nodata.png')
+    width 100%
+    height 200px
+    background-size 187px 144px
+    background-repeat no-repeat
+    background-position 50%
+    position relative
+    span
+        position absolute
+        left 0
+        width 100%
+        text-align center
+        bottom 20px
+.num
+    color #007EFF
+.inputpl
+    position fixed
+    bottom 0
+    width 100%
+    left 0
+    box-shadow 0 1px 10px #ccc
+    z-index 99
+// 动画
+.Transition-enter-active {
+    animation: Transition .3s;
+}
+.Transition-leave-active {
+    animation: Transition .3s reverse;
+}
+@keyframes Transition {
+    0% {
+        transform: translateY(100%)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+.selectO-enter-active {
+    animation: selectO .3s;
+}
+.selectO-leave-active {
+    animation: selectO .3s reverse;
+}
+@keyframes selectO {
+    0% {
+        opacity:0;
+        transform:translateY(20px)
+    }
+    100% {
+        opacity:1;
+        transform:translateY(0)
+    }
+}
+.hidden
+    overflow hidden !important
+    width 100%
+
